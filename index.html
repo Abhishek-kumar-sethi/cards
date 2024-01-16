@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>card</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@200;300;400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+    img {
+      position: relative;
+      top: -40px;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-header{
+        position: relative;
+        bottom: 25px;
+        width: 90%;
+        height: 50vh;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: end;
+        justify-content: start;
+       
+    }
+    .card:hover{
+        animation: animate ease 2s
+
+    }
+    ion-icon:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+    @keyframes animate {
+        0%{
+            transform: scale(0.9);
+        }
+        100%{
+            transform: scale(1);
+        }
+        
+    }
+  </style>
+  <body>
+
+    <!-- background-card -->
+    </div>
+    <!-- profile-card1 -->
+    <div class="container-fluid border bg-light py-4">
+      <h3 class="text-center text-capitalize">profile card</h3>
+    </div>
+    <div class="container-fluid py-5 d-flex flex-wrap justify-content-around text-center"style="background-color: rgba(0, 0, 0, 0.2)">
+      <div class="card text-center my-4 mb-5" style="width: 350px">
+        <div class="card-body">
+          <img
+            src="image/avatar1.png"
+            alt=""
+            style="
+              width: 40%;
+              border-radius: 50%;
+              margin: -20px;
+              box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+            "
+          />
+          <div class="card-title"><h5>Patrick Wood</h5></div>
+          <h5 class="text-muted">CEO / Co-Founder</h5>
+          <p>
+            Don't be scared of the truth because we need to restart the human
+            foundation in truth And I love you like Kanye loves Kanye I love
+            Rick Owens’ bed design but the back is...
+          </p>
+          <ion-icon
+            name="logo-pinterest"
+            class="rounded-circle p-3 bg-danger text-white m-1"
+          ></ion-icon>
+          <ion-icon
+            name="logo-twitter"
+            class="rounded-circle p-3 bg-info text-white m-1"
+          ></ion-icon>
+          <ion-icon
+            name="globe-outline"
+            class="rounded-circle p-3 text-white m-1"
+            style="background-color: #a46670f1"
+          ></ion-icon>
+        </div>
+      </div>
+      <div class="card text-center my-4 mb-5" style="width: 350px">
+        <div class="card-body">
+          <img
+            src="image/avatar2.png"
+            alt=""
+            style="
+              width: 40%;
+              border-radius: 50%;
+              margin: -20px;
+              box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+            "
+          />
+          <div class="card-title"><h5>Debbon Amet</h5></div>
+          <h5 class="text-muted">Front-end Devloper</h5>
+          <p>
+            Don't be scared of the truth because we need to restart the human
+            foundation in truth And I love you like Kanye loves Kanye I love
+            Rick Owens’ bed design but the back is...
+          </p>
+          <ion-icon
+            name="logo-twitter"
+            class="rounded-circle p-3 bg-info text-white m-1"
+          ></ion-icon>
+          <ion-icon
+            name="globe-outline"
+            class="rounded-circle p-3 text-white m-1"
+            style="background-color: #a46670f1"
+          ></ion-icon>
+        </div>
+      </div>
+      <div class="card text-center my-4 mb-5" style="width: 350px">
+        <div class="card-body">
+          <img
+            src="image/avatar3.png"
+            alt=""
+            style="
+              width: 40%;
+              border-radius: 50%;
+              margin: -20px;
+              box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+            "
+          />
+          <div class="card-title"><h5>Mary Dunst</h5></div>
+          <h5 class="text-muted">Web designer</h5>
+          <p>
+            Don't be scared of the truth because we need to restart the human
+            foundation in truth And I love you like Kanye loves Kanye I love
+            Rick Owens’ bed design but the back is...
+          </p>
+          <ion-icon
+            name="globe-outline"
+            class="rounded-circle p-3 text-white m-1"
+            style="background-color: #a46670f1"
+          ></ion-icon>
+          <ion-icon
+            name="logo-twitter"
+            class="rounded-circle p-3 bg-info text-white m-1"
+          ></ion-icon>
+          <ion-icon
+            name="logo-pinterest"
+            class="rounded-circle p-3 bg-danger text-white m-1"
+          ></ion-icon>
+        </div>
+      </div>
+    </div>
+    <!-- profile-card2 -->
+    <div class="container-fluid py-4">
+      <h3 class="text-center">Profile Cards</h3>
+    </div>
+    <div class="container-fluid d-flex flex-wrap justify-content-around py-5"style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="card text-center mb-5" style="width: 350px">
+        <div class="card-header" style="background: url(image/avatar1.png)center/cover; ">
+          <h4 class="text-white">John Smith</h4>
+        </div>
+          <div class="card-body">
+          <h6 class="text-danger">CEO / Co-Founder</h6>
+          <p>
+            Don't be scared of the truth because we need to restart the human
+            foundation in truth And I love you like Kanye loves Kanye I love
+            Rick Owens’ bed design but the back is...
+          </p>
+          <ion-icon name="logo-twitter"class="text-info p-3"></ion-icon>
+          <ion-icon name="globe-outline"class="p-3"style="color: #a46670f1"></ion-icon>
+          <ion-icon name="logo-instagram" class="p-3" style="color: blue;"></ion-icon>
+        </div>
+      </div>
+      <div class="card text-center mb-5" style="width: 350px">
+        <div class="card-header" style="background: url(image/avatar2.png)center/cover;">
+          <h4 class="text-white">Clementine Thson</h4>
+        </div>
+          <div class="card-body">
+          <h6 class="text-success">Graphic designer</h6>
+          <p>
+            Don't be scared of the truth because we need to restart the human
+            foundation in truth And I love you like Kanye loves Kanye I love
+            Rick Owens’ bed design but the back is...
+          </p>
+          <ion-icon name="logo-twitter"class="text-info p-3"></ion-icon>
+          <ion-icon name="globe-outline"class="p-3"style="color: #a46670f1"></ion-icon>
+          <ion-icon name="logo-instagram" class="p-3" style="color: blue;"></ion-icon>
+        </div>
+      </div>
+      <div class="card text-center mb-5" style="width: 350px">
+        <div class="card-header" style="background: url(image/avatar3.png)center/cover;">
+          <h4 class="text-white">Elanor Aline</h4>
+        </div>
+          <div class="card-body">
+          <h6 class="text-info">Front-end Devloper</h6>
+          <p>
+            Don't be scared of the truth because we need to restart the human
+            foundation in truth And I love you like Kanye loves Kanye I love
+            Rick Owens’ bed design but the back is...
+          </p>
+          <ion-icon name="logo-twitter"class="text-info p-3"></ion-icon>
+          <ion-icon name="globe-outline"class="p-3"style="color: #a46670f1"></ion-icon>
+          <ion-icon name="logo-instagram" class="p-3" style="color: blue;"></ion-icon>
+        </div>
+      </div>
+      </div>
+      <!-- profile-card3 -->
+      <div class="container-fluid py-4">
+        <h3 class="text-center">Profile Card</h3>
+      </div>
+      <div class="container-fluid py-5 d-flex flex-wrap justify-content-around" style="background-color: rgba(0, 0, 0, 0.3);">
+        <div class="card text-center mb-5" style="width: 350px;">
+            <div class="card-header" style="background: url(image/avatar1.png)center/cover;"></div>
+            <div class="card-body ">
+                <h4>John Smith</h4>
+                <h5 class="text-muted">CEO / Co-Founder</h5>
+                <ion-icon name="logo-twitter"class="text-white bg-info rounded-circle p-3 mt-1"></ion-icon>
+                <ion-icon name="logo-facebook" class="text-white rounded-circle p-3 mt-1" style="background-color: rgb(58, 58, 93);"></ion-icon>
+                <ion-icon name="logo-google" class="text-white rounded-circle p-3 mt-1" style="background-color: rgba(199, 90, 50, 0.9);"></ion-icon>
+            </div>
+        </div>
+        <div class="card text-center mb-5" style="width: 350px;">
+            <div class="card-header" style="background: url(image/avatar2.png)center/cover;"></div>
+            <div class="card-body ">
+                <h4>Clementine Thson</h4>
+                <h5 class="text-muted">Graphic Designer</h5>
+                <ion-icon name="logo-twitter"class="text-white bg-info rounded-circle p-3 mt-1"></ion-icon>
+                <ion-icon name="logo-facebook" class="text-white rounded-circle p-3 mt-1" style="background-color: rgb(58, 58, 93);"></ion-icon>
+                <ion-icon name="logo-google" class="text-white rounded-circle p-3 mt-1" style="background-color: rgba(199, 90, 50, 0.9);"></ion-icon>
+            </div>
+        </div>
+        <div class="card text-center mb-5" style="width: 350px;">
+            <div class="card-header" style="background: url(image/avatar3.png)center/cover;"></div>
+            <div class="card-body ">
+                <h4>Elanor Aline</h4>
+                <h5 class="text-muted">Front-end Devloper</h5>
+                <ion-icon name="logo-twitter"class="text-white bg-info rounded-circle p-3 mt-1"></ion-icon>
+                <ion-icon name="logo-facebook" class="text-white rounded-circle p-3 mt-1" style="background-color: rgb(58, 58, 93);"></ion-icon>
+                <ion-icon name="logo-google" class="text-white rounded-circle p-3 mt-1" style="background-color: rgba(199, 90, 50, 0.9);"></ion-icon>
+            </div>
+        </div>
+      </div>
+      <!-- <h1>product card</h1> -->
+      <h3 class="text-center py-4">Product Cards</h3>
+      <div class="container-fluid py-5 d-flex flex-wrap justify-content-around " style="background-color: rgba(0, 0, 0, 0.3);">
+        <div class="card mb-5" style="width: 300px;">
+          <div class="card-header" style="background: url(image/model01.jpg)center/cover; width: 75%;">
+          </div>
+          <div class="card-body text-center">
+            <h6 class="text-danger">Clothing</h6>
+            <h4>The Name</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit...</p>
+          </div>
+        </div>
+        <div class="card mb-5" style="width: 300px;">
+          <div class="card-header" style="background: url(image/model02.jpg)center/cover; width: 75%;">
+            
+          </div>
+          <div class="card-body text-center">
+            <h6>Clothing</h6>
+            <h4>The Name</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit...</p>
+          </div>
+        </div>
+
+        <div class="card mb-5" style="width: 300px;">
+          <div class="card-header" style="background: url(image/model03.jpg)center/cover; width: 75%;">
+          </div>
+          <div class="card-body text-center">
+            <h6>Clothing</h6>
+            <h4>The Name</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit...</p>
+          </div>
+        </div>
+
+        <div class="card mb-5" style="width: 300px;">
+          <div class="card-header" style="background: url(image/model04.jpg)center/cover; width: 75%;">
+            
+          </div>
+          <div class="card-body text-center">
+            <h6 class="text-danger">Clothing</h6>
+            <h4>The Name</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit...</p>
+          </div>
+        </div>
+      </div>
+      <!-- testimonial-card -->
+      <div class="container">
+        <h3 class="text-center py-4">Testimonial Cards</h3>
+      </div>
+      <div class="container-fluid py-5 d-flex flex-wrap justify-content-around" style="background-color: rgba(0, 0, 0, 0.3);">
+        <div class="card text-center" style="width: 350px; margin-bottom: 80px;">
+            <img src="image/qoute.png" alt="" style=" margin-top: 60px;" class="text-center">
+            <p style="font-size: 18px; margin-top: -20px;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"</p>
+            <h5 class="pt-1"><b>Debbon Amet</b></h5>
+            <p class="mb-5">@debbonamet</p>
+            <div class="card-img-overlay">
+            <img src="image/avatar1.png" alt=""  style="
+            width: 30%;
+            border-radius: 50%;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+            position: relative; top: 320px;
+          ">
+          </div>
+        </div>
+        <div class="card text-center" style="width: 350px;  margin-bottom: 80px;">
+            <img src="image/qoute.png" alt="" style=" margin-top: 60px;" class="text-center">
+            <p style="font-size: 18px; margin-top: -20px;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"</p>
+            <h5 class="pt-1"><b>Mary Dunst</b></h5>
+            <p class="mb-5">@Marydunst</p>
+            <div class="card-img-overlay">
+            <img src="image/avatar2.png" alt=""  style="
+            width: 30%;
+            border-radius: 50%;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+            position: relative; top: 320px;
+          ">
+          </div>
+        </div>
+        <div class="card text-center" style="width: 350px;  margin-bottom: 80px;">
+            <img src="image/qoute.png" alt="" style=" margin-top: 60px;" class="text-center">
+            <p style="font-size: 18px; margin-top: -20px;">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"</p>
+            <h5 class="pt-1"><b>Patrick Wood</b></h5>
+            <p class="mb-5">@Patrickwood</p>
+            <div class="card-img-overlay">
+            <img src="image/avatar3.png" alt=""  style="
+            width: 30%;
+            border-radius: 50%;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+            position: relative; top: 320px;
+          ">
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
